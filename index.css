@@ -5,7 +5,7 @@
     background: linear-gradient(45deg, #000000, #3E432E, #616F39, #A7D129);
 }
 
-img{
+.perfil{
     border-radius: 100%;
     width: 100px;
     height: 100px;
@@ -15,8 +15,8 @@ img{
     
 }
 img:hover{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 nav{
     margin-left: 80%;
@@ -38,4 +38,20 @@ nav li {
 nav li:hover a{
     color: #A7D129;
 	font-size: 23px;
+}
+.github{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.linkedin{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
 }
